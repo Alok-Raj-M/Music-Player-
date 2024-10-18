@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background: #000;
+    height: 65px;
+    color:white ;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.brand img{
+    height: 60px;
+    width: 60px;
+    padding: 0 8px;
+    border-radius: 50%;
+}
+.container{
+    min-height: 70vh;
+    display: flex;
+    padding: 350px;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("https://images.unsplash.com/photo-1471478331149-c72f17e33c73?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bXVzaWN8ZW58MHx8MHx8fDA%3D");
+    background-size: cover;
+    background-position: center;
+
+}
+.songitem{
+    height: 50px;
+    display: flex;
+    width: 80%;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #010101af;
+    border-radius: 34px;
+
+}
+.songconterner{
+    margin-top:30px ;
+}
+.songitem img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin:0 23px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.timestamp{
+    margin: 0 23px;
+    cursor: pointer;
+}
+.timestamp i{
+    font-size: 20px;
+    cursor: pointer;
+}
+.buttom{
+    position: sticky;
+    height: 120px;
+    background-color: #210808;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+}
+.icon{
+    font-size: 35px;
+    margin-top:20px ;
+}
+.icon i{
+    cursor: pointer;
+}
+#progressbar{
+    width: 80vw;
+    cursor:  pointer;
+}
+.songinfo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    left: 0;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
